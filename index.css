@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    color: #EEEEEE;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    letter-spacing: 0.25rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 350px;
+    background: #111827;
+    margin: 10px;
+}
+.score-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+    min-width: 500px;
+}
+
+.score {
+    color: #F94F6D;
+    font-size: 50px;
+    background: #080001;
+    height: 25%;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.btn {
+    background-color: #111827;
+    color: #EEEEEE;
+    font-family: 'Orbitron', sans-serif;
+    padding: 10px;
+    margin: 20px 0px 40px;
+    border: solid #EEEEEE 1px;
+    width: 40px;
+    border-radius: 12%
+}
+
+#reset-btn {
+    width: 100px;
+    color: #111827;
+    background: #EEEEEE;
+    font-weight: 900;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+.teamname {
+    font-size: 2rem;
+    margin: 30px 0 10px;
+}
